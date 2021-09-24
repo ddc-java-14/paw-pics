@@ -1,4 +1,4 @@
-package ed.cnm.deepdive.appstarter;
+package edu.cnm.deepdive.pawpics;
 
 import org.junit.Test;
 
@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-public class ExampleUnitTest {
+public class PawPicsUnitTest {
 
   @Test
   public void addition_isCorrect() {

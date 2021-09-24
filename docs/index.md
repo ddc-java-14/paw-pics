@@ -1,35 +1,37 @@
 ## Summary
+PawPics is an app for finding a home for pets in need as fast as possible.  This app follows the models of some dating apps, and what is the purpose of a dating app?
+The purpose of a dating app is to get the users paired up with a compatible partner as fast as possible.  So this app is going to be designed to get homeless pets with a
+caring family ASAP.
 
-Replace this paragraph with one or more paragraphs summarizing the purpose and operation of the Android app you propose to develop in this project.
+The user will be greeted with a screen with a form so the app can get input about what pet a person is looking for.  After this step the app will pull from the PefFinder API a pic and
+info about a random pet.  The user will then be prompted to give a yes or no based on the pet location and other info if the pet is a good fit for the user.
+
+If the pet is found to be a good fit for the user, the user can then add the pet to favorites and or get in direct contact with the person responsible for the adoption process.
 
 ## Intended users
+* A user looking to adopt a pet
+* A user looking to foster a pet
+* A user who is fostering looking to adopt-out a pet
 
-Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
+## User Stories
+As someone looking to adopt a pet I need an app to help me find a pet that is a great match for me, without a breeder.
 
-For each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence (no more than 2 sentences), in the voice of the intended user, stating a specific task that the user performs using the app, and the benefit that will be obtained. The simplest user stories take the form 
-
-> As a <type of intended user (_who_)> I want to <use of feature or functionality (_what_)> so that <benefit (_why_).
-
-Please avoid writing too much for the user story. In particular, if the way the user story is written makes it difficult to see the _who_, _what_, and _why_, then you probably need to re-write it more directly. (On the other hand, a user story should not simply be a re-statement of the intended user description.)
-
-Here is one (silly) example of an intended user, along with a user story. Please note not only the conceptual structure, but the Markdown syntax used.
-
-* People who like to use randomness in their decision making.
-
-    > As someone who enjoys randomness in my life, I need an app that lets me flip a virtual coin or roll one or more virtual dice, so that I can base my decisions on randomness, without having to carry coins or dice in my pockets.
-
+As someone looking to foster pets I need an app to keep me up to date with pets that need fostering.
 ## Functionality
-
-List (using a bullet list---or ordered list, if order is relevant) the key functional aspects that will be provided by the app---i.e. tell us what the user will be able to do using the app. This should not simply be a re-statement of the [summary](#summary), but should instead provide a more specific articulation of the functionality and user experience. 
-
+1. User greeted by inquiry form (What is the user looking for?  As well as gathering basic user info)
+2. User starts browsing based on input given in the form
+3. User can choose to: add pet to list and move on, move on, or make contact with pet guardian.
 ## Persistent data
+* Name
+* email
+* pet like list
+* pet history
 
 List, in general terms and using a bullet list, what content will be stored on the Android device. This should include any information that users of your app would expect to be maintained (i.e. without connection to a server) across multiple sessions of use. 
     
 ## Device/external services
-
-If the client component will need to access special services of the device (e.g. sensors, contacts, messaging), list them here using a bullet list. Also, if the client component will need to access already-existing external services (e.g. real-time weather data, Open Movie Database, Open Trivia Database), those should also be listed here; any such references to external services should include links to the main page or API description page for the service.
-
+* PetFinder API
+* Camera
+* Internet/HTTP
 ## Stretch goals/possible enhancements 
-
-If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.
+Adding more of a social media element to it.  A login system, likes, dislikes.  Added security.
