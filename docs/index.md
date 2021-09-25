@@ -10,13 +10,16 @@ If the pet is found to be a good fit for the user, the user can then add the pet
 
 ## Intended users
 * A user looking to adopt a pet
+    > As someone looking to adopt a pet I need an app to help me find a pet that is a great match for me, without a breeder.
+
 * A user looking to foster a pet
-* A user who is fostering looking to adopt-out a pet
+    > As someone looking to foster pets I need an app to keep me up to date with pets that need fostering.
+
+* A user who is the pet-owner looking to adopt-out a pet
+    > As someone who owns a pet and has to move, time is of the essence I want my pet to go to a home not a shelter, I need an app to help connect me with a foster or new home human.
 
 ## User Stories
-As someone looking to adopt a pet I need an app to help me find a pet that is a great match for me, without a breeder.
 
-As someone looking to foster pets I need an app to keep me up to date with pets that need fostering.
 ## Functionality
 1. User greeted by inquiry form (What is the user looking for?  As well as gathering basic user info)
 2. User starts browsing based on input given in the form
@@ -26,6 +29,7 @@ As someone looking to foster pets I need an app to keep me up to date with pets 
 * email
 * pet like list
 * pet history
+* Possibly a User Rating
 
 List, in general terms and using a bullet list, what content will be stored on the Android device. This should include any information that users of your app would expect to be maintained (i.e. without connection to a server) across multiple sessions of use. 
     
