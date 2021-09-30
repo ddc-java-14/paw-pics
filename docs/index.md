@@ -24,6 +24,7 @@ If the pet is found to be a good fit for the user, the user can then add the pet
 1. User greeted by inquiry form (What is the user looking for?  As well as gathering basic user info)
 2. User starts browsing based on input given in the form
 3. User can choose to: add pet to list and move on, move on, or make contact with pet guardian.
+
 ## Persistent data
 * Name
 * email
@@ -31,11 +32,12 @@ If the pet is found to be a good fit for the user, the user can then add the pet
 * pet history
 * Possibly a User Rating
 
-List, in general terms and using a bullet list, what content will be stored on the Android device. This should include any information that users of your app would expect to be maintained (i.e. without connection to a server) across multiple sessions of use. 
-    
 ## Device/external services
 * PetFinder API
 * Camera
 * Internet/HTTP
+
 ## Stretch goals/possible enhancements 
-Adding more of a social media element to it.  A login system, likes, dislikes.  Added security.
+* Adding more of a social media element to it.
+* A login system, likes, dislikes.
+* Added security.
