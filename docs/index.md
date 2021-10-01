@@ -10,10 +10,10 @@ If the pet is found to be a good fit for the user, the user can then add the pet
 
 ## Intended users
 * A user looking to adopt a pet
-    > As someone looking to adopt a pet I need an app to help me find a pet that is a great match for me, without a breeder.
+    > As someone looking to adopt a pet I need an app to help me find a pet that is a great match for me, without a breeder as fast as possible so the pet doesn't end up in a shelter.
 
 * A user looking to foster a pet
-    > As someone looking to foster pets I need an app to keep me up to date with pets that need fostering.
+    > As someone looking to foster pets I need an app to keep me up to date with pets that need fostering so I can get the pet out of the owners
 
 * A user who is the pet-owner looking to adopt-out a pet
     > As someone who owns a pet and has to move, time is of the essence I want my pet to go to a home not a shelter, I need an app to help connect me with a foster or new home human.
