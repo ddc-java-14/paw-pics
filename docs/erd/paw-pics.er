@@ -1,0 +1,37 @@
+title {label: "Paw-Pics Entity-Relationship Diagram", size: "20"}
+
+# Entities
+
+## User ##
+[user]          {bgcolor: "#888988"}
+user_name       {label: "varchar, not null"}
+user_first_name {label: "varchar"}
+user_last_name  {label: "varchar"}
+user_birthdate  {label: "date"}
+*user_email     {label: "email not null"}
+password        {label: "varchar not null"}
+
+## Pet ##
+[pet]           {bgcolor: "#20b266"}
+*id             {label: "number not null"}
+org_id          {label: "varchar"}
+pet_finder_url  {label: "varchar"}
+type            {label: "text"}
+species         {label: "text"}
+primary_breed   {label: "text"}
+secondary_breed {label: "text"}
+primary_photo   {label: "url"}
+status          {label: "text"}
+
+## Organization ##
+[organization]  {bgcolor: "#8befbb"}
+*id             {label: "varchar not null"}
+name            {label: "varchar not null"}
+email           {label: "email"}
+phone           {label: "phone/varchar not null"}
+website         {label: "url"}
+
+# Relations
+user            1--*    pet             {label: "User Favorited Pets"}
+organization    1--+    pet             {label: "Pet Belongs To Org"}
+user            1--*    organization    {label: "User Favorited Organizations"}
