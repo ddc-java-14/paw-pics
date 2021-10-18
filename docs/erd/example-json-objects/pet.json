@@ -1,0 +1,105 @@
+{
+    "id": 53295234,
+    "organization_id": "TX2420",
+    "url": "https://www.petfinder.com/dog/barnaby-53295234/nj/collingswood/texas-muttley-love-tx2420/?referrer_id=2d488269-4509-4209-841f-97861be16157",
+    "type": "Dog",
+    "species": "Dog",
+    "breeds": {
+        "primary": "Plott Hound",
+        "secondary": "Pit Bull Terrier",
+        "mixed": true,
+        "unknown": false
+    },
+    "colors": {
+        "primary": "Brindle",
+        "secondary": "White / Cream",
+        "tertiary": null
+    },
+    "age": "Baby",
+    "gender": "Male",
+    "size": "Medium",
+    "coat": "Short",
+    "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+    },
+    "environment": {
+        "children": true,
+        "dogs": true,
+        "cats": true
+    },
+    "tags": [
+        "Friendly",
+        "Affectionate",
+        "Loyal",
+        "Gentle",
+        "Playful",
+        "Athletic"
+    ],
+    "name": "Barnaby",
+    "description": "Sweet Barnaby is one of 15 puppies. He is 6 weeks old and will be about 55 pounds.  His mom...",
+    "organization_animal_id": null,
+    "photos": [
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/1/?bust=1634522836&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/1/?bust=1634522836&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/1/?bust=1634522836&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/1/?bust=1634522836"
+        },
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/2/?bust=1634522836&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/2/?bust=1634522836&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/2/?bust=1634522836&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/2/?bust=1634522836"
+        },
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/3/?bust=1634522837&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/3/?bust=1634522837&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/3/?bust=1634522837&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/3/?bust=1634522837"
+        },
+        {
+            "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/4/?bust=1634522838&width=100",
+            "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/4/?bust=1634522838&width=300",
+            "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/4/?bust=1634522838&width=600",
+            "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/4/?bust=1634522838"
+        }
+    ],
+    "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/1/?bust=1634522836&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/1/?bust=1634522836&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/1/?bust=1634522836&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/53295234/1/?bust=1634522836"
+    },
+    "videos": [],
+    "status": "adoptable",
+    "status_changed_at": "2021-10-18T02:07:19+0000",
+    "published_at": "2021-10-18T02:07:19+0000",
+    "distance": null,
+    "contact": {
+        "email": "mattie.gallier@icloud.com",
+        "phone": null,
+        "address": {
+            "address1": null,
+            "address2": null,
+            "city": "Collingswood",
+            "state": "NJ",
+            "postcode": "08108",
+            "country": "US"
+        }
+    },
+    "_links": {
+        "self": {
+            "href": "/v2/animals/53295234"
+        },
+        "type": {
+            "href": "/v2/types/dog"
+        },
+        "organization": {
+            "href": "/v2/organizations/tx2420"
+        }
+    }
+}
