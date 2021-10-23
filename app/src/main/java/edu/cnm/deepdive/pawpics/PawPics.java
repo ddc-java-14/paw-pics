@@ -14,5 +14,4 @@ public class PawPics extends Application {
     super.onCreate();
     Stetho.initializeWithDefaults(this);
   }
-
 }
