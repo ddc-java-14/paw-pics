@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="edu.cnm.deepdive.pawpics.FirstFragment"
+        android:name="edu.cnm.deepdive.pawpics.view.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="edu.cnm.deepdive.pawpics.SecondFragment"
+        android:name="edu.cnm.deepdive.pawpics.view.SecondFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
