@@ -6,6 +6,10 @@ public class Pet {
   @SerializedName("id")
   private int id;
 
+  // The or ID is what adoption facility if any the pet is at.
+  @SerializedName("organization_id")
+  private String organizationId;
+
   @SerializedName("name")
   private String name;
 
@@ -18,8 +22,14 @@ public class Pet {
   @SerializedName("sex")
   private String sex;
 
-  Pet(int id, String name, String type, String breed, String sex) {
+  @SerializedName("adoptable")
+  private boolean adoptable;
+
+  private
+
+  Pet(int id, String organizationId, String name, String type, String breed, String sex) {
     this.setId(id);
+    this.setOrganizationId(organizationId);
     this.setName(name);
     this.setType(type);
     this.setBreed(breed);
@@ -32,6 +42,14 @@ public class Pet {
 
   public void setId(int id) {
     this.id = id;
+  }
+
+  public String getOrganizationId() {
+    return organizationId;
+  }
+
+  public void setOrganizationId(String organizationId) {
+    this.organizationId = organizationId;
   }
 
   public String getName() {
