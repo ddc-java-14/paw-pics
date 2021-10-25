@@ -14,11 +14,19 @@ public class User {
   @SerializedName("last_name")
   private String lastName;
 
-  @SerializedName(date_of_birth)
+  @SerializedName("date_of_birth")
   private Date dateOfBirth;
 
   @SerializedName("email_address")
   private String email;
+
+  public User(String id, String firstName, String lastName, Date dateOfBirth, String email) {
+    this.setId(id);
+    this.setFirstName(firstName);
+    this.setLastName(lastName);
+    this.setDateOfBirth(dateOfBirth);
+    this.setEmail(email);
+  }
 
   public String getId() {
     return id;

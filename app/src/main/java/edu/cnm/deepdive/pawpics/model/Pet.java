@@ -25,15 +25,14 @@ public class Pet {
   @SerializedName("adoptable")
   private boolean adoptable;
 
-  private
-
-  Pet(int id, String organizationId, String name, String type, String breed, String sex) {
+  public Pet(int id, String organizationId, String name, String type, String breed, String sex, boolean adoptable) {
     this.setId(id);
     this.setOrganizationId(organizationId);
     this.setName(name);
     this.setType(type);
     this.setBreed(breed);
     this.setSex(sex);
+    this.setAdoptable(adoptable);
   }
 
   public int getId() {
@@ -82,5 +81,13 @@ public class Pet {
 
   public void setSex(String sex) {
     this.sex = sex;
+  }
+
+  public boolean isAdoptable() {
+    return adoptable;
+  }
+
+  public void setAdoptable(boolean adoptable) {
+    this.adoptable = adoptable;
   }
 }
